@@ -1,0 +1,22 @@
+{
+    "name": "masnathan/shares-counter",
+    "type": "library",
+    "description": "Retrieves the number of shares from a certain social network",
+    "keywords": ["api","request","shares","count"],
+    "homepage": "https://github.com/ReiDuKuduro/SharesCounter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Filipe",
+            "email": "andre.r.flip@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "masnathan/api-caller": "0.2.1"
+    },
+    "autoload": {
+        "files": ["SharesCounter.php"]
+    }
+}
